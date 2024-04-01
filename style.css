@@ -1,12 +1,32 @@
-/*
-Theme Name: v4l3 theme
-Theme URI: https://v4l3.com/theme
-Author: v4l3
-Author URI: https://v4l3.com
-Description: theme created specifically for v4l3.com
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: <https://www.gnu.org/licenses/gpl-2.0.html>
-Text Domain: v4l3-custom-theme
-Tags: custom-background
-*/
+html * 
+{
+    font-family: courier;
+    line-height: 1.5;
+}
+
+h1 
+{
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+body 
+{
+   margin-right: 20px;
+   margin-left: 20px;
+}
+
+img 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.footnote 
+{
+   font-size: 13.5px;
+   font-style: italic;
+}
